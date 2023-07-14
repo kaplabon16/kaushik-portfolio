@@ -1,6 +1,6 @@
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 0 200px;
     
@@ -12,6 +12,7 @@ nav title{
     color:#181818;
 font-size: 45px;
 font-style: normal;
+width: 50%;
 
 }
 .text-primary{
@@ -46,13 +47,107 @@ nav a{
     padding: 18px 35px;
 }
 .header{
-    background-color:#FFF8F3;;
+    background-color:#FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+    
 }
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.profile-pic{
+.banner .profile-pic{
     width: 500px;
+  
+}
+.banner-gretting{
+    font-size: 45px;
+    color:#474747;
+    font-weight: 600;
+    margin-bottom: 0;
+    
+}
+.banner-tittle{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 85px;
+    font-weight: 700;
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-content{
+    max-width: 500px;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.118);
+    
+    
+    
+}
+.section-title{
+    color:#181818;
+    text-align: center;
+     font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 50px;
+    align-items: center;
+    
+}
+.info-description{
+    color: var(--dark-03, #757575);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+#section-description{
+    padding: 0px 150px 150px 150px;
+
+}
+.skills-container{
+    display: flex;
+    gap: 10px;
+    
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.312);
+    gap:50px;
+    padding: 30px;
 }
